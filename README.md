@@ -3,7 +3,7 @@
 ## Primer punto : Python quiz
 Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
 
-[![image.png](https://i.postimg.cc/nLSS5wsF/image.png)](https://postimg.cc/d7d9Z6mp)
+[![image.png](https://i.postimg.cc/pTSVBng0/image.png)](https://postimg.cc/ftxhzkWX)
 
 ## Segundo punto : Codigo 
 Realice un programa que lea tres números reales y determine cuál es el mayor.
@@ -20,8 +20,17 @@ elif n2 > n1 and n2 > n3 :
 elif n3 > n1 and n3 > n2 :
     print("el numero mayor es:",n3)
 ```
-## Tercer punto:
+## Tercer punto: Par o impar
+Realice un programa que lea un número enteros y determine si es par o impar.
 
+```
+n: int
+n = int(input("ingrese el numero:"))
+if n % 2 == 0 :
+    print("es un numero par")
+else:
+    print("es un numero impar")  
+```
 
 
 ## Cuarto punto: Múltiplos
@@ -36,3 +45,18 @@ else:
   print("el primer número no es múltiplo del segundo")
 ```
 
+## Quinto punto: Codigo
+Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+
+```
+n: float
+n1= float(input("inserte el primer numero:",))
+n2= float (input("nserte el segundo numero:"))
+n3= float (input("inserte en tercer numero:"))
+if (n1+n2) > n3:
+    print("La suma es mayor a:",n3)
+elif (n1+n2) < n3:
+    print("la suma es menor a:",n3)
+elif (n1+n2) == n3:
+    print("la sumas es igual a:",n3)
+```
