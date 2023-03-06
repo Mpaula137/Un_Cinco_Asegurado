@@ -27,10 +27,5 @@ elif n3 > n1 and n3 > n2 :
 ## Cuarto punto: múltiplos
 Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo
 
-x = float(input("escoge tu primer numero "))
-y = float(input("escoge tu segundo numero "))
-if x % y == 0:
-  print ("el primer número es múltiplo del segundo")
-else: 
-  print("el primer número no es múltiplo del segundo")
+
 
