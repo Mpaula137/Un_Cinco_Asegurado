@@ -60,3 +60,17 @@ elif (n1+n2) < n3:
 elif (n1+n2) == n3:
     print("la sumas es igual a:",n3)
 ```
+
+## Sexto punto: Vocales y Consonantes
+Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+print
+
+```
+print("Escriba una letra")
+x = str(input())
+if x =="a" or x =="e" or x =="i" or x =="o" or x =="a" or x =="u":
+    print("la letra es una vocal")
+else:
+    print("la letra es una consonante")
+```
+
