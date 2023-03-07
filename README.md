@@ -1,4 +1,5 @@
 # Un_Cinco_Asegurado
+Queremos lograr realizar y entregar un trabajo con una muy buena calidad para poder lograr y ser merecedores de un hermoso 5
 
 ## Primer punto : Python quiz
 Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
@@ -72,5 +73,77 @@ if x =="a" or x =="e" or x =="i" or x =="o" or x =="a" or x =="u":
     print("la letra es una vocal")
 else:
     print("la letra es una consonante")
+```
+## Septimo punto: Operaciones varias
+
+Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
+
+-El promedio
+-La mediana
+-El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+-Ordenar los números de forma ascendente
+-Ordenar los números de forma descendente
+-La potencia del mayor número elevado al menor número
+-La raíz cúbica del menor número
+```
+fg
+```
+## Octavo punto: Espectro electromagnético
+
+Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+```
+x: float
+x= float(input("escriba la frecuencia en Hz"))
+if x> (30.0)*(10)**(18):
+    print ("Rayos gamma")
+elif x> (30.0)*(10)**(15):
+    print ("Rayos X")
+elif x> (1.5)*(10)**(15):
+    print ("Ultravioleta Extremo")
+elif x> (7.89)*(10)**(14):
+    print ("Ultravioleta Cercano")
+elif x> (384)*(10)**(12):
+    print ("Espectro Visible")
+elif x> (120)*(10)**(12):
+    print ("Infrarojo cercano")
+elif x> (6.00)*(10)**(12):
+    print ("Infrarojo medio")
+elif x> (300)*(10)**(9):
+    print ("Infrarojo Lejano/Submilimetrico")
+elif x> (3)*(10)**(8):
+    print ("Microondas")
+elif x> (300)*(10)**(6):
+    print ("Ultra Alta Frecuencia-Radio")
+elif x> (30)*(10)**(6):
+    print ("Muy Alta Frecuencia-Radio")
+elif x> (1.7)*(10)**(6):
+    print ("Onda Corta - Radio")
+elif x> (650)*(10)**(3):
+    print ("Onda Media - Radio")
+elif x> (30)*(10)**(3):
+    print ("Onda Larga - Radio")
+elif x< (30)*(10)**(3) and x>0:
+    print ("Muy Baja Frecuencia - Radio")
+elif x<0:
+    print ("No existen frecuencias menores a 0")
+
+```
+## Noveno punto: Capitales
+Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+```
+jik
+```
+
+## Decimo punto: Dada una distancia varias operaciones
+
+Escriba un programa que dada una distancia calcule:
+
+-El tiempo que le tomaría a la luz recorrer la distancia.
+-El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+-El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+-El tiempo que le tomaría a Bolt recorrer la distancia.
+
+```
+gds
 ```
 
