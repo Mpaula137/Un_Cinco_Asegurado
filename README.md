@@ -39,7 +39,7 @@ elif n2 > n1 and n2 > n3 :
 elif n3 > n1 and n3 > n2 :
     print("el numero mayor es:",n3)
 ```
-Archivo de codigo ejecutado en un archivo .py
+Archivo de codigo ejecutado en un archivo .py:
 
 [![image.png](https://i.postimg.cc/qRR6HJ8h/image.png)](https://postimg.cc/v1JZWd2b)
 
@@ -47,6 +47,7 @@ Archivo de codigo ejecutado en un archivo .py
 
 ## Tercer punto: Par o impar
 Realice un programa que lea un número enteros y determine si es par o impar.
+Explicación: Asignaremos la variable y analizando el problema sabemos que un número es par cuando es divisible por 2 asi que colocamos un modulo el cual nos dice que sí el resultado es igual a 0 este seria un numero par.
 
 ```
 n: int
@@ -56,11 +57,14 @@ if n % 2 == 0 :
 else:
     print("es un numero impar")  
 ```
+ Archivo de codigo ejecutado en un archivo .ipynb :
+ 
 
 
 ## Cuarto punto: Múltiplos
 Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo
 
+Explicación: Asignamos la variable con su interacción de una vez, luego con un módulo como operación designada encontraremos los multiplos requeridos.
 ```
 x = float(input("escoge tu primer numero "))
 y = float(input("escoge tu segundo numero "))
@@ -69,9 +73,14 @@ if x % y == 0:
 else: 
   print("el primer número no es múltiplo del segundo")
 ```
+Archivo de codigo ejecutado en un archivo .py:
+
+[![image.png](https://i.postimg.cc/c4vxyDrJ/image.png)](https://postimg.cc/LnMKj3kd)
+
 
 ## Quinto punto: Codigo
 Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+Explicación: Asignamos la variable, luego determinamos el condicional requerido para lograr identificar si la suma es mayor que el tercer número, sabemos que usando los operadores decignamos la suma luego con el signo ">" sabemos que el interprete nos dira si la suma es mayor que el tercero.
 
 ```
 n: float
@@ -85,10 +94,13 @@ elif (n1+n2) < n3:
 elif (n1+n2) == n3:
     print("la sumas es igual a:",n3)
 ```
+ Archivo de codigo ejecutado en un archivo .ipynb :
+ 
 
 ## Sexto punto: Vocales y Consonantes
 Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
-print
+
+Explicación: Elegimos elegir el "print" para interactuar luego definimos a x como una cadena y en el condicional colocamos las vocales y si no se imprime una letra de estas es consonante.
 
 ```
 print("Escriba una letra")
@@ -98,6 +110,11 @@ if x =="a" or x =="e" or x =="i" or x =="o" or x =="a" or x =="u":
 else:
     print("la letra es una consonante")
 ```
+Archivo de codigo ejecutado en un archivo .py:
+
+[![image.png](https://i.postimg.cc/L8HJ1cD8/image.png)](https://postimg.cc/tYMR0m8K)
+
+
 ## Septimo punto: Operaciones varias
 
 Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
@@ -134,99 +151,13 @@ elif (n1+n2) == n3:
 
 
 
-## Sexto punto: Vocales y Consonantes
-
-Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
-
-print
-
-
-
-```
-
-print("Escriba una letra")
-
-x = str(input())
-
-if x =="a" or x =="e" or x =="i" or x =="o" or x =="a" or x =="u":
-
-    print("la letra es una vocal")
-
-else:
-
-    print("la letra es una consonante")
-
-```
-
-## Septimo punto: Operaciones varias
-
-
-
-Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
-
-
-
--El promedio
-
--La mediana
-
--El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
-
--Ordenar los números de forma ascendente
-
--Ordenar los números de forma descendente
-
--La potencia del mayor número elevado al menor número
-
--La raíz cúbica del menor número
-
-```
-
-fg
-
-```
 
 ## Octavo punto: Espectro electromagnético
 
-
-
 Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
-```
+Explicación: Buscamos todos los criterios y operaciones especializadas para poder hallar la frecuencias y las colocamos en forma de condición.
 
-x: float
-
-x= float(input("escriba la frecuencia en Hz"))
-
-if x> (30.0)*(10)**(18):
-
-    print ("Rayos gamma")
-
-elif x> (30.0)*(10)**(15):
-
-    print ("Rayos X")
-
-elif x> (1.5)*(10)**(15):
-
-    print ("Ultravioleta Extremo")
-
-elif x> (7.89)*(10)**(14):
-
-    print ("Ultravioleta Cercano")
-
-elif x> (384)*(10)**(12):
-
-    print ("Espectro Visible")
-
-elif x> (120)*(10)**(12):
-
--La raíz cúbica del menor número
-```
-fg
-```
-## Octavo punto: Espectro electromagnético
-
-Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 ```
 x: float
 x= float(input("escriba la frecuencia en Hz"))
@@ -264,6 +195,10 @@ elif x<0:
     print ("No existen frecuencias menores a 0")
 
 ```
+Archivo de codigo ejecutado en un archivo .py:
+
+[![image.png](https://i.postimg.cc/yYrGgZ0Q/image.png)](https://postimg.cc/ZCpHX07p)
+
 ## Noveno punto: Capitales
 Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 ```
