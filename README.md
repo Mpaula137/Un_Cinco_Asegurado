@@ -149,6 +149,7 @@ elif (n1+n2) == n3:
 
 ```
 
+ Archivo de codigo ejecutado en un archivo .ipynb :
 
 
 
@@ -201,9 +202,43 @@ Archivo de codigo ejecutado en un archivo .py:
 
 ## Noveno punto: Capitales
 Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+Explicación: Al principio tuvimos dudas sobre este pero buscamos guias y encontramos que en primer lugar tenemos que crear un diccionario donde estaran los paises y capitales luego creamos la condición a cumplir en donde colocaremos que si el pais esta en la capital, imprimimos el pais y la capital.
+
 ```
-jik
+capital_ciudad = {
+  "argentina": "buenos aires",
+  "bolivia": "la paz",
+  "brasil": "brasilia",
+  "canada": "ottawa",
+  "chile": "santiago",
+  "colombia": "bogota",
+  "costa rica": "san jose",
+  "cuba": "la habana",
+  "ecuador": "quito",
+  "estados unidos": "washington",
+  "guatemala": "ciudad de guatemala",
+  "haiti": "puerto príncipe",
+  "honduras": "tegucigalpa",
+  "jamaica": "kingston",
+  "méxico": "ciudad de méxico",
+  "nicaragua": "managua",
+  "panamá": "ciudad de panamá",
+  "paraguay": "asunción",
+  "perú": "lima",
+  "república dominicana": "santo domingo",
+  "uruguay": "montevideo",
+  "venezuela": "caracas"
+}
+
+pais = input("Ingrese el nombre del país en minúsculas: ")
+
+if pais in capital_ciudad:
+  capital = capital_ciudad[pais]
+  print("La ciudad capital de", pais.title(), "es", capital.title())
+else:
+  print("Lo siento, el país", pais.title(), "no se encuentra en la lista.")
 ```
+ Archivo de codigo ejecutado en un archivo .ipynb :
 
 ## Decimo punto: Dada una distancia varias operaciones
 
