@@ -1,6 +1,20 @@
 # Un_Cinco_Asegurado
 Queremos lograr realizar y entregar un trabajo con una muy buena calidad para poder lograr y ser merecedores de un hermoso 5
 
+## Grupo conformado por:
+
+- Diego Alejandro Muñoz Penna
+
+- Aaron suarez
+
+ - Maria Paula MAchuca Hortua
+
+Nos complace decir que nuestro grupo lleva por nombre PYTHONBROKES y a continuación mostrare nuestro logo
+
+[![logo.jpg](https://i.postimg.cc/HL4kxVwv/logo.jpg)](https://postimg.cc/4Kyg24Fp)
+
+
+
 ## Primer punto : Python quiz
 Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
 
@@ -8,6 +22,10 @@ Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
 
 ## Segundo punto : Codigo 
 Realice un programa que lea tres números reales y determine cuál es el mayor.
+
+Explicación: Realizamos una investigación como para guiarnos, en youtube encontramos un código similar decidimos guiarnos con este.
+Entendemos que al principio le damos la asignación a la variable "n" luego encontramos la acción de "input" la cual va a permitir al usuario interactuar con el código, luego establecimos las condiciones necesarias para que se diera la respuesta de cual número es mayor.
+
 
 ```
 n: float
@@ -21,6 +39,12 @@ elif n2 > n1 and n2 > n3 :
 elif n3 > n1 and n3 > n2 :
     print("el numero mayor es:",n3)
 ```
+Archivo de codigo ejecutado en un archivo .py
+
+[![image.png](https://i.postimg.cc/qRR6HJ8h/image.png)](https://postimg.cc/v1JZWd2b)
+
+
+
 ## Tercer punto: Par o impar
 Realice un programa que lea un número enteros y determine si es par o impar.
 
@@ -84,6 +108,118 @@ Escriba un programa que pida 5 números reales y calcule las siguientes operacio
 -Ordenar los números de forma ascendente
 -Ordenar los números de forma descendente
 -La potencia del mayor número elevado al menor número
+```
+
+n: float
+
+n1= float(input("inserte el primer numero:",))
+
+n2= float (input("nserte el segundo numero:"))
+
+n3= float (input("inserte en tercer numero:"))
+
+if (n1+n2) > n3:
+
+    print("La suma es mayor a:",n3)
+
+elif (n1+n2) < n3:
+
+    print("la suma es menor a:",n3)
+
+elif (n1+n2) == n3:
+
+    print("la sumas es igual a:",n3)
+
+```
+
+
+
+## Sexto punto: Vocales y Consonantes
+
+Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+
+print
+
+
+
+```
+
+print("Escriba una letra")
+
+x = str(input())
+
+if x =="a" or x =="e" or x =="i" or x =="o" or x =="a" or x =="u":
+
+    print("la letra es una vocal")
+
+else:
+
+    print("la letra es una consonante")
+
+```
+
+## Septimo punto: Operaciones varias
+
+
+
+Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
+
+
+
+-El promedio
+
+-La mediana
+
+-El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+
+-Ordenar los números de forma ascendente
+
+-Ordenar los números de forma descendente
+
+-La potencia del mayor número elevado al menor número
+
+-La raíz cúbica del menor número
+
+```
+
+fg
+
+```
+
+## Octavo punto: Espectro electromagnético
+
+
+
+Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+
+```
+
+x: float
+
+x= float(input("escriba la frecuencia en Hz"))
+
+if x> (30.0)*(10)**(18):
+
+    print ("Rayos gamma")
+
+elif x> (30.0)*(10)**(15):
+
+    print ("Rayos X")
+
+elif x> (1.5)*(10)**(15):
+
+    print ("Ultravioleta Extremo")
+
+elif x> (7.89)*(10)**(14):
+
+    print ("Ultravioleta Cercano")
+
+elif x> (384)*(10)**(12):
+
+    print ("Espectro Visible")
+
+elif x> (120)*(10)**(12):
+
 -La raíz cúbica del menor número
 ```
 fg
