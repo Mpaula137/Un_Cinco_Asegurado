@@ -120,33 +120,39 @@ Archivo de codigo ejecutado en un archivo .py:
 Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 -El promedio
+
 -La mediana
+
 -El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+
 -Ordenar los números de forma ascendente
+
 -Ordenar los números de forma descendente
+
 -La potencia del mayor número elevado al menor número
 ```
 
-n: float
-
-n1= float(input("inserte el primer numero:",))
-
-n2= float (input("nserte el segundo numero:"))
-
-n3= float (input("inserte en tercer numero:"))
-
-if (n1+n2) > n3:
-
-    print("La suma es mayor a:",n3)
-
-elif (n1+n2) < n3:
-
-    print("la suma es menor a:",n3)
-
-elif (n1+n2) == n3:
-
-    print("la sumas es igual a:",n3)
-
+n1: int
+n2: int
+n3: int
+n4: int
+n5: int
+n1= int(input("ingrese el numero 1:"))
+n2=int(input("ingrese el numero 2:"))
+n3= int(input("ingrese el numero 3:"))
+n4= int(input("ingrese el numero 4:"))
+n5= int(input("ingrese el numero 5:"))
+list= [n1, n2, n3, n4, n5]
+prom= (n1+n2+n3+n4+n5) / 5
+print ("este es su promedio:",prom)
+import math
+x = 5
+prom_multi= (n1*n2*n3*n4*n5) / math.sqrt(x)
+print ("Este es el promedio multiplicativo:", prom_multi)
+orde= list.sort()
+print("Aca esta tu lista en orden ascendente:", list)
+orde_2= list.sort(reverse = True)
+print("Aca esta tu lista en orden descendente:", list) #falta la mediana
 ```
 
  Archivo de codigo ejecutado en un archivo .ipynb :
