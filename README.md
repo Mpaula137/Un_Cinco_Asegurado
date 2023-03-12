@@ -5,9 +5,9 @@ Queremos lograr realizar y entregar un trabajo con una muy buena calidad para po
 
 - Diego Alejandro Muñoz Penna
 
-- Aaron suarez
+- Aaron Alejandro Suarez Bonilla
 
- - Maria Paula MAchuca Hortua
+ - Maria Paula Machuca Hortua
 
 Nos complace decir que nuestro grupo lleva por nombre PYTHONBROKES y a continuación mostrare nuestro logo
 
