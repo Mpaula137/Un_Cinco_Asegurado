@@ -1,5 +1,5 @@
 # Un_Cinco_Asegurado
-Queremos lograr realizar y entregar un trabajo con una muy buena calidad para poder lograr y ser merecedores de un hermoso 5
+Queremos realizar y entregar un trabajo con una muy buena calidad para poder lograr y ser merecedores de un hermoso 5
 
 ## Grupo conformado por:
 
