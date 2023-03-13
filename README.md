@@ -251,11 +251,30 @@ else:
 Escriba un programa que dada una distancia calcule:
 
 -El tiempo que le tomaría a la luz recorrer la distancia.
+
 -El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+
 -El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+
 -El tiempo que le tomaría a Bolt recorrer la distancia.
+ 
+ Explicación: Primero declaramos que tipo es nuestra variable(distancia) luego damos la opción al usuario de ingresar la distacia que le sea de su agrado, despues decidimos dar el valor a cada velocidad que usaremos despues en cada formula para hallar el tiempo, luego de que ya esten ponemos el procedimiento e imprimos el resultado correspondiente asi sucesivamente.
 
 ```
-gds
+Distancia=float(input("Ingrese la distancia deseada en metros:"))
+Vel_Lu=299792.458
+Vel_So=343
+Vel_Veh=136.2444
+Vel_Bold=12.24
+Tiempolu=(Distancia/Vel_Lu)
+print ("El tiempo para que la luz recorra la distancia", Distancia, "es de:" +str (Tiempolu) + " segundo(s)")
+TiempoSo=(Distancia/Vel_So)
+print("El tiempo para que el sonido recorra la distancia", Distancia,"es de:" +str(TiempoSo)+ "segundo(s)")
+TiempoVeh=(Distancia/Vel_Veh)
+print("El tiempo para que el vehiculo recorra la distancia",Distancia, "es de:" +str(TiempoVeh)+ "segundo(s)")
+TiempoBold=(Distancia/Vel_Bold)
+print("El tiempo para que Bold recorra la distancia", Distancia, "es de:" +str(TiempoBold)+ "segundo(s)")
 ```
+Archivo de codigo ejecutado en un archivo .py:
 
+[![image.png](https://i.postimg.cc/905frhL9/image.png)](https://postimg.cc/bDgPBKcY)
