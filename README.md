@@ -1,4 +1,4 @@
-# Un_Cinco_Asegurado :p
+# Un_Cinco_Asegurado 🍿🚀
 Queremos realizar y entregar un trabajo con una muy buena calidad para poder lograr y ser merecedores de un hermoso 5
 
 ## Grupo conformado por:
@@ -15,7 +15,7 @@ Nos complace decir que nuestro grupo lleva por nombre PYTHONBROKES y a continuac
 
 
 
-## Primer punto : Python quiz
+## Primer punto : Python quiz😎
 Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
 
 [![image.png](https://i.postimg.cc/pTSVBng0/image.png)](https://postimg.cc/ftxhzkWX)
@@ -45,7 +45,7 @@ Archivo de codigo ejecutado en un archivo .py:
 
 
 
-## Tercer punto: Par o impar
+## Tercer punto: Par o impar 🧐
 Realice un programa que lea un número enteros y determine si es par o impar.
 Explicación: Asignaremos la variable y analizando el problema sabemos que un número es par cuando es divisible por 2 asi que colocamos un modulo el cual nos dice que sí el resultado es igual a 0 este seria un numero par.
 
@@ -63,7 +63,7 @@ else:
  
 
 
-## Cuarto punto: Múltiplos
+## Cuarto punto: Múltiplos📐📏
 Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo
 
 Explicación: Asignamos la variable con su interacción de una vez, luego con un módulo como operación designada encontraremos los multiplos requeridos.
@@ -80,7 +80,7 @@ Archivo de codigo ejecutado en un archivo .py:
 [![image.png](https://i.postimg.cc/c4vxyDrJ/image.png)](https://postimg.cc/LnMKj3kd)
 
 
-## Quinto punto: Codigo
+## Quinto punto: Codigo🖥
 Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 Explicación: Asignamos la variable, luego determinamos el condicional requerido para lograr identificar si la suma es mayor que el tercer número, sabemos que usando los operadores decignamos la suma luego con el signo ">" sabemos que el interprete nos dira si la suma es mayor que el tercero.
 
@@ -101,7 +101,7 @@ elif (n1+n2) == n3:
  [![image.png](https://i.postimg.cc/0N3DNyrn/image.png)](https://postimg.cc/R37Ns97J)
  
 
-## Sexto punto: Vocales y Consonantes
+## Sexto punto: Vocales y Consonantes👨‍🏫👩‍🏫
 Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
 
 Explicación: Elegimos elegir el "print" para interactuar luego definimos a x como una cadena y en el condicional colocamos las vocales y si no se imprime una letra de estas es consonante.
@@ -119,7 +119,7 @@ Archivo de codigo ejecutado en un archivo .py:
 [![image.png](https://i.postimg.cc/L8HJ1cD8/image.png)](https://postimg.cc/tYMR0m8K)
 
 
-## Septimo punto: Operaciones varias
+## Septimo punto: Operaciones varias➕➖
 
 Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
@@ -163,7 +163,8 @@ print("Aca esta tu lista en orden descendente:", list) #falta la mediana
 
 
 
-## Octavo punto: Espectro electromagnético
+## Octavo punto: Espectro electromagnético📈
+
 
 Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
@@ -210,7 +211,7 @@ Archivo de codigo ejecutado en un archivo .py:
 
 [![image.png](https://i.postimg.cc/yYrGgZ0Q/image.png)](https://postimg.cc/ZCpHX07p)
 
-## Noveno punto: Capitales
+## Noveno punto: Capitales ✈️
 Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 Explicación: Al principio tuvimos dudas sobre este pero buscamos guias y encontramos que en primer lugar tenemos que crear un diccionario donde estaran los paises y capitales luego creamos la condición a cumplir en donde colocaremos que si el pais esta en la capital, imprimimos el pais y la capital.
 
@@ -252,7 +253,7 @@ else:
 
 [![Captura-de-pantalla-2023-03-13-153334.png](https://i.postimg.cc/WzS4h5XV/Captura-de-pantalla-2023-03-13-153334.png)](https://postimg.cc/gLXp7qCt)
 
-## Decimo punto: Dada una distancia varias operaciones
+## Decimo punto: Dada una distancia varias operaciones 🤓🚗
 
 Escriba un programa que dada una distancia calcule:
 
