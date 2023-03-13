@@ -1,4 +1,4 @@
-# Un_Cinco_Asegurado
+# Un_Cinco_Asegurado :p
 Queremos realizar y entregar un trabajo con una muy buena calidad para poder lograr y ser merecedores de un hermoso 5
 
 ## Grupo conformado por:
@@ -59,6 +59,8 @@ else:
 ```
  Archivo de codigo ejecutado en un archivo .ipynb :
  
+ [![Captura-de-pantalla-2023-03-13-153406.png](https://i.postimg.cc/Vs9rxR9D/Captura-de-pantalla-2023-03-13-153406.png)](https://postimg.cc/XXJYF9zC)
+ 
 
 
 ## Cuarto punto: Múltiplos
@@ -95,6 +97,8 @@ elif (n1+n2) == n3:
     print("la sumas es igual a:",n3)
 ```
  Archivo de codigo ejecutado en un archivo .ipynb :
+ 
+ [![image.png](https://i.postimg.cc/0N3DNyrn/image.png)](https://postimg.cc/R37Ns97J)
  
 
 ## Sexto punto: Vocales y Consonantes
@@ -246,6 +250,8 @@ else:
 ```
  Archivo de codigo ejecutado en un archivo .ipynb :
 
+[![Captura-de-pantalla-2023-03-13-153334.png](https://i.postimg.cc/WzS4h5XV/Captura-de-pantalla-2023-03-13-153334.png)](https://postimg.cc/gLXp7qCt)
+
 ## Decimo punto: Dada una distancia varias operaciones
 
 Escriba un programa que dada una distancia calcule:
@@ -278,3 +284,6 @@ print("El tiempo para que Bold recorra la distancia", Distancia, "es de:" +str(T
 Archivo de codigo ejecutado en un archivo .py:
 
 [![image.png](https://i.postimg.cc/905frhL9/image.png)](https://postimg.cc/bDgPBKcY)
+
+# Hemos llegado al fin.
+esperamos que complazca todos los punto calificables y poder obtener una de las mejores notas. 🌟
