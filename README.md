@@ -302,5 +302,9 @@ Archivo de codigo ejecutado en un archivo .py:
 
 [![image.png](https://i.postimg.cc/905frhL9/image.png)](https://postimg.cc/bDgPBKcY)
 
+# Les dejaremos un detallito🎁🧑‍🎄:
+- Entra a verlo!!! super recomendadisimo, explicamos uno de los codigosss.
+https://www.youtube.com/watch?v=t2Ti_oe7ImA
+
 # Hemos llegado al fin.
 esperamos que complazca todos los punto calificables y poder obtener una de las mejores notas. 🌟
