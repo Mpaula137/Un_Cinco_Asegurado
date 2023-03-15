@@ -17,10 +17,16 @@ Nos complace decir que nuestro grupo lleva por nombre PYTHONBROKES y a continuac
 
 ## Primer punto : Python quiz😎
 Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
+  - Maria Paula Machuca Hortua 
 
-[![image.png](https://i.postimg.cc/pTSVBng0/image.png)](https://postimg.cc/ftxhzkWX)
-[![image.png](https://i.postimg.cc/ZKpW0wQ4/Imagen-de-Whats-App-2023-03-15-a-las-00-29-19.jpg)
-[![image.png](https://i.postimg.cc/8CHWcZjj/Imagen-de-Whats-App-2023-03-14-a-las-23-55-14.jpg)
+![image.png](https://i.postimg.cc/pTSVBng0/image.png)](https://postimg.cc/ftxhzkWX)
+  - Aaroon Suarez Bonilla
+  
+  ![image.png](https://i.postimg.cc/ZKpW0wQ4/Imagen-de-Whats-App-2023-03-15-a-las-00-29-19.jpg)
+
+# Diagrama realizado del punto🗾:
+
+![image.png](https://i.postimg.cc/8CHWcZjj/Imagen-de-Whats-App-2023-03-14-a-las-23-55-14.jpg)
 
 ## Segundo punto : Codigo 
 Realice un programa que lea tres números reales y determine cuál es el mayor.
@@ -62,6 +68,8 @@ else:
  Archivo de codigo ejecutado en un archivo .ipynb :
  
  [![Captura-de-pantalla-2023-03-13-153406.png](https://i.postimg.cc/Vs9rxR9D/Captura-de-pantalla-2023-03-13-153406.png)](https://postimg.cc/XXJYF9zC)
+
+# Diagrama realizado del punto🗾:
 
 [![image.png](https://i.postimg.cc/50QCgbsF/Imagen-de-Whats-App-2023-03-14-a-las-23-35-17.jpg)
  
@@ -256,6 +264,8 @@ else:
  Archivo de codigo ejecutado en un archivo .ipynb :
 
 [![Captura-de-pantalla-2023-03-13-153334.png](https://i.postimg.cc/WzS4h5XV/Captura-de-pantalla-2023-03-13-153334.png)](https://postimg.cc/gLXp7qCt)
+
+# Diagrama realizado del punto 🗾:
 
 [![image.png](https://i.postimg.cc/vHsV7Rfc/Imagen-de-Whats-App-2023-03-15-a-las-00-24-50.jpg)
 
