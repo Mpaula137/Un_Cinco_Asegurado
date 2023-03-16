@@ -19,10 +19,15 @@ Nos complace decir que nuestro grupo lleva por nombre PYTHONBROKES y a continuac
 Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
   - Maria Paula Machuca Hortua 
 
-![image.png](https://i.postimg.cc/pTSVBng0/image.png)](https://postimg.cc/ftxhzkWX)
-  - Aaroon Suarez Bonilla
+[![image.png](https://i.postimg.cc/pTSVBng0/image.png)](https://postimg.cc/ftxhzkWX)
+ 
+ - Aaroon Suarez Bonilla
   
   ![image.png](https://i.postimg.cc/ZKpW0wQ4/Imagen-de-Whats-App-2023-03-15-a-las-00-29-19.jpg)
+  
+  - Diego Muñoz Penna
+  
+  
 
 # Diagrama realizado del punto🗾:
 
