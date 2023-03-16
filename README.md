@@ -152,10 +152,86 @@ Escriba un programa que pida 5 números reales y calcule las siguientes operacio
 
 -La potencia del mayor número elevado al menor número
 ```
+a = float(input("num 1: "))
+b = float(input("num 2: "))
+c = float(input("num 3: "))
+d = float(input("num 4: "))
+e = float(input("num 5: "))
+m1 , m2, m3, m4, m5 = a, b, c, d, e
+Numeros= [a,b,c,d,e]
+if a <= b and a <= c and a<=d and a<=e:
+  m1 = a
+  if b <= c and b<=d and b<=e:
+    m2, m3, m4, m5 = b, c,d, e
+  elif c<= b and c<=d and c<=e:
+    m2, m3, m4, m5 = c, b, d, e
+  elif d<=b and d<=c and d<=e:
+    m2, m3, m4, m5 = d, b, c, e
+  elif e<=b and e<=c and e<=d:
+    m2, m3, m4, m5 = e, b, c, d
+if b <= a and b <= c and b<= d and b<=e:
+  m1 = b
+  if a<=c and a<=d and a<=e:
+    m2,m3,m4,m5 = a,c,d,e
+  elif c<=a and c<=d and c<=e:
+    m2, m3, m4, m5 = c, a, d, e
+  elif d<=a and d<=c and d<=e:
+    m2, m3, m4, m5 = d, a, c, e
+  elif e<=a and e<=c and e<=d:
+    m2, m3, m4, m5 = e, a, c, d
+if c<= a and c <= b and c<= d and c<=e:
+   m1 =c
+   if a<=b and a<=d and a<=e:
+    m2,m3,m4,m5 = a,b,d,e
+   elif b<=a and b<=d and b<=e:
+    m2, m3, m4, m5 = b, a, d, e
+   elif d<=b and d<=e and d<=a:
+    m2, m3, m4, m5 = d, b, e, a
+   elif e<=a and e<=b and e<=d:
+    m2, m3, m4, m5 = e, a, b, d
+if d<= a and d <= b and d<= c and d<=e:
+   m1 =d
+   if a<=b and a<=c and a<=e:
+    m2,m3,m4,m5 = a,b,c,e
+   elif b<=a and b<=c and b<=e:
+    m2, m3, m4, m5 = b, a, c, e
+   elif c<=a and c<=b and c<=e:
+    m2, m3, m4, m5 = c, a, b, e
+   elif e<=a and e<=b and e<=c:
+    m2, m3, m4, m5 = e, c, a, d
 
+if e<= a and e <= b and e<= c and e<=d:
+   m1 =e
+   if a<=b and a<=c and a<=d:
+    m2,m3,m4,m5 = a,b,c,d
+   elif b<=a and b<=c and b<=d:
+    m2, m3, m4, m5 = b, a, c, d
+   elif c<=b and c<=d and c<=a:
+    m2, m3, m4, m5 = c, b, d, a
+   elif d<=a and d<=b and d<=c:
+    m2, m3, m4, m5 = d, a, b, c
+   
+
+print(str(a) + " " + str(b) + " " + str(c) + " " + str(d) + " "+ str(e))
+print(str(m1) + " " + str(m2) + " " + str(m3) + " " + str(m4) + " "+ str(m5))
+
+prom= (a+b+c+d+e) / 5
+print ("este es su promedio:",prom)
+
+h= (a*b*c*d*e)**(1/5)
+print ("Promedio Multiplicativo:",h)
+
+chiqui = min(Numeros)
+mayor = max(Numeros)
+raiz = chiqui**1/3
+print("Esta es la raiz cubica del valor mas pequeño:" + str(raiz))
+potencia = mayor**chiqui
+print("Esta es la potencia del numero grande con exponente del numero mas pequeño:" +str(potencia))
 ```
 
  Archivo de codigo ejecutado en un archivo .ipynb :
+ 
+ 
 
 
 
