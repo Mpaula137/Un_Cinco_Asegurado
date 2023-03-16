@@ -198,7 +198,7 @@ if d<= a and d <= b and d<= c and d<=e:
    elif c<=a and c<=b and c<=e:
     m2, m3, m4, m5 = c, a, b, e
    elif e<=a and e<=b and e<=c:
-    m2, m3, m4, m5 = e, c, a, d
+    m2, m3, m4, m5 = e, a, b, c
 
 if e<= a and e <= b and e<= c and e<=d:
    m1 =e
@@ -221,12 +221,12 @@ print ("este es su promedio:",prom)
 h= (a*b*c*d*e)**(1/5)
 print ("Promedio Multiplicativo:",h)
 
-chiqui = min(Numeros)
-mayor = max(Numeros)
-raiz = chiqui**1/3
+peque = min(Numeros)
+grande = max(Numeros)
+raiz = peque**1/3
 print("Esta es la raiz cubica del valor mas pequeño:" + str(raiz))
-potencia = mayor**chiqui
-print("Esta es la potencia del numero grande con exponente del numero mas pequeño:" +str(potencia))
+potencia = grande**peque
+print("Esta es la potencia del numero grande con exponente del numero mas pequeño:" + str(potencia))
 ```
 
  Archivo de codigo ejecutado en un archivo .ipynb :
