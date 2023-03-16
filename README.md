@@ -27,7 +27,7 @@ Quiz que debe tener un 90% de acertividad a la hora de hacerlo.
   
   - Diego Muñoz Penna
   
-  
+  [![image.png](https://i.postimg.cc/hvBvK6Dt/image.png)](https://postimg.cc/R6g4RPJk)
 
 # Diagrama realizado del punto🗾:
 
@@ -153,27 +153,6 @@ Escriba un programa que pida 5 números reales y calcule las siguientes operacio
 -La potencia del mayor número elevado al menor número
 ```
 
-n1: int
-n2: int
-n3: int
-n4: int
-n5: int
-n1= int(input("ingrese el numero 1:"))
-n2=int(input("ingrese el numero 2:"))
-n3= int(input("ingrese el numero 3:"))
-n4= int(input("ingrese el numero 4:"))
-n5= int(input("ingrese el numero 5:"))
-list= [n1, n2, n3, n4, n5]
-prom= (n1+n2+n3+n4+n5) / 5
-print ("este es su promedio:",prom)
-import math
-x = 5
-prom_multi= (n1*n2*n3*n4*n5) / math.sqrt(x)
-print ("Este es el promedio multiplicativo:", prom_multi)
-orde= list.sort()
-print("Aca esta tu lista en orden ascendente:", list)
-orde_2= list.sort(reverse = True)
-print("Aca esta tu lista en orden descendente:", list) #falta la mediana
 ```
 
  Archivo de codigo ejecutado en un archivo .ipynb :
